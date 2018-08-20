@@ -14,10 +14,10 @@ resource "$oms_prj/lib"
         }
         parameter{       	        	
         	
-        	"centroids.inFolder" 		"${home}/output/DEMs/"
+        	"centroids.inFolder" 		"${home}/data/"
 		//	"centroids.referenceSystem" "32632"
 			"centroids.inputDataType" 	".asc"
-			"centroids.outputPath" 		"${home}/output/Centroids/"
+			"centroids.outputPath" 		"${home}/output/"
 			"centroids.nameOfOutput" 	"Centroid"
         	}
         	connect {        
