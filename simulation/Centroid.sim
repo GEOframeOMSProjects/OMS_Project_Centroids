@@ -3,9 +3,10 @@ def home = oms_prj
 
 OMS3.sim {
 
-resource "$oms_prj/lib"
-
+resource "${home}/lib"
+ build()
  model( ) {
+
  	components {    
  		//"readerData"						"org.jgrasstools.gears.io.timedependent.OmsTimeSeriesIteratorReader"
  	//	"vreaderStation"					"org.jgrasstools.gears.io.shapefile.OmsShapefileFeatureReader"
@@ -14,10 +15,10 @@ resource "$oms_prj/lib"
         }
         parameter{       	        	
         	
-        	"centroids.inFolder" 		"${home}/output/DEMs/"
-		//	"centroids.referenceSystem" "32632"
+        	"centroids.inFolder" 		"${home}/data/"
+			"centroids.referenceSystem" "32632"
 			"centroids.inputDataType" 	".asc"
-			"centroids.outputPath" 		"${home}/output/Centroids/"
+			"centroids.outputPath" 		"${home}/output/Centroid/"
 			"centroids.nameOfOutput" 	"Centroid"
         	}
         	connect {        
