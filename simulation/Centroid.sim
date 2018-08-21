@@ -18,7 +18,7 @@ resource "${home}/lib"
         	"centroids.inFolder" 		"${home}/data/"
 			"centroids.referenceSystem" "32632"
 			"centroids.inputDataType" 	".asc"
-			"centroids.outputPath" 		"${home}/output/Centroid/"
+			"centroids.outputPath" 		"${home}/output/"
 			"centroids.nameOfOutput" 	"Centroid"
         	}
         	connect {        
