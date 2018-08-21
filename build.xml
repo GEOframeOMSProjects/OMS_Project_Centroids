@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="RUG" default="all" basedir=".">
+    <description>
+       Manages the project 'RUG'.
+       Created at Tue Apr 04 14:44:59 MDT 2017.
+    </description>
+    <import file=".oms/project.xml"/>
+</project>
