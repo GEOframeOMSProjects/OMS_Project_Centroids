@@ -15,10 +15,10 @@ resource "${home}/lib"
         }
         parameter{       	        	
         	
-        	"centroids.inFolder" 		"${home}/data/"
+        	"centroids.inFolder" 		"${home}/data/Dem"
 			"centroids.referenceSystem" "32632"
 			"centroids.inputDataType" 	".asc"
-			"centroids.outputPath" 		"${home}/output/"
+			"centroids.outputPath" 		"${home}/output/Centroid/"
 			"centroids.nameOfOutput" 	"Centroid"
         	}
         	connect {        

@@ -1,0 +1,50 @@
+import static oms3.SimBuilder.instance as OMS3
+def home = oms_prj
+
+// start and end date of the simulation
+def startDate	= 	"2004-01-17 00:00"
+def endDate		=	"2004-01-31 23:00"
+def ID=1
+def timestep=60
+
+OMS3.sim {
+
+resource "$oms_prj/lib"
+
+ model(while: "readerData.doProcess" ) {
+ 	components {    
+ 		"readerData"						"org.jgrasstools.gears.io.timedependent.OmsTimeSeriesIteratorReader"
+ 		"vreaderStation"					"org.jgrasstools.gears.io.shapefile.OmsShapefileFeatureReader"
+        "modisReader"						"VegetationTools.readerModisData"
+        "writerTimeSeries"					"org.jgrasstools.gears.io.timedependent.OmsTimeSeriesIteratorWriter" 
+        }
+        parameter{   
+        	// parameter of the reader components 
+        	"readerData.file"				"${home}/data/timeseries.csv"  
+        	"readerData.idfield"			"ID"  
+        	"readerData.tStart"        		"${startDate}"
+        	"readerData.tEnd"          		"${endDate}"
+        	"readerData.tTimestep"  		"${timestep}"
+        	"readerData.fileNovalue"   		"-9999"
+        	
+        	"modisReader.inFolder"			"${home}/data/LaiMap"        
+        	"vreaderStation.file"			"${home}/data/Centroid.shp"            
+        	"modisReader.fStationsid"		"ID" 
+        	"modisReader.dataType"			"tif"
+        	"modisReader.scaleFactor"		0.1
+        	"modisReader.prj"				"${home}/data/SystemRif.prj"            
+        	
+        	
+        	// parameter of the writing component    
+        	"writerTimeSeries.file"			"${home}/output/LAI_from_centroid_${ID}.csv" 
+        	"writerTimeSeries.tStart"		"${startDate}"
+        	"writerTimeSeries.tTimestep"	"${timestep}"
+        	"writerTimeSeries.fileNovalue"	"-9999"        	                
+        	}
+        	connect {        
+        		"readerData.tCurrent"		"modisReader.tCurrent"          
+        		"vreaderStation.geodata"	"modisReader.inStations"              
+        		"modisReader.outValueHM"	"writerTimeSeries.inData"
+        		}
+        	}
+       }

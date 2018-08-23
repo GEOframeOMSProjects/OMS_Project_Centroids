@@ -1,0 +1,473 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="_FillValue">255</MDI>
+    <MDI key="add_offset">0</MDI>
+    <MDI key="add_offset_err">0</MDI>
+    <MDI key="ALGORITHMPACKAGEACCEPTANCEDATE">10-01-2004</MDI>
+    <MDI key="ALGORITHMPACKAGEMATURITYCODE">Normal</MDI>
+    <MDI key="ALGORITHMPACKAGENAME">MODPR_15A2</MDI>
+    <MDI key="ALGORITHMPACKAGEVERSION">6</MDI>
+    <MDI key="ASSOCIATEDINSTRUMENTSHORTNAME.1">MODIS</MDI>
+    <MDI key="ASSOCIATEDPLATFORMSHORTNAME.1">Terra</MDI>
+    <MDI key="ASSOCIATEDSENSORSHORTNAME.1">MODIS</MDI>
+    <MDI key="AUTOMATICQUALITYFLAG.1">Passed</MDI>
+    <MDI key="AUTOMATICQUALITYFLAGEXPLANATION.1">No automatic quality assessment is performed in the PGE</MDI>
+    <MDI key="calibrated_nt">21</MDI>
+    <MDI key="CHARACTERISTICBINANGULARSIZE500M">15.0</MDI>
+    <MDI key="CHARACTERISTICBINSIZE500M">463.312716527778</MDI>
+    <MDI key="DATACOLUMNS500M">2400</MDI>
+    <MDI key="DATAROWS500M">2400</MDI>
+    <MDI key="DAYNIGHTFLAG">Day</MDI>
+    <MDI key="DESCRREVISION">6.0</MDI>
+    <MDI key="EASTBOUNDINGCOORDINATE">15.5702026309755</MDI>
+    <MDI key="ENGINEERING_DATA"># MOD_PR15A2 (Vers 5.0.4 Rele 10.18.2006 23:59)
+# MUM API Vers 2.5.8 Rev 104 Rel. 11.15.2000 10:49 (pgs)
+# (c) 2000 J.M. Glassy, NTSG,LLSD
+# portions of MUM API by Petr Votava,NTSG Lab,U.Montana
+# HOST ECS_PGS_VirtualHost PROCESS 19540618
+# PLATFORM Sys genericunix Vers unknown Release unknown Node (no nodename available)
+# INIT-TIME Thu Mar 26 04:07:30 2015
+
+YEARDAY  17 COMPOSITE_PERIOD   3 FIRSTDAY_IN_PERIOD  17
+SDS[PGE34_ISG_MBRLUT] %ID 8650752 Rank   2 (664 120)
+SDS[PGE34_OUTFIELD_PROP] %ID 8650753 Rank   2 (78 174)
+SDS[PGE34_BROWSEFIELD_PROP] %ID 8650754 Rank   2 (77 158)
+READANC SDS[PGE34_ISG_MBRLUT] RANK 2 (664 120)
+READANC SDS[PGE34_OUTFIELD_PROP] RANK 2 (78 174)
+READANC SDS[PGE34_BROWSEFIELD_PROP] RANK 2 (77 158)
+READANC SDS[PGE34_ECSMETA_DICT] RANK 2 (73 110)
+READANC SDS[PGE34_RELEASE_NOTES] RANK 2 (84 98)
+FLDPROP SDSnam(PGE34_OUTFIELD_PROP)MoleName(PGE34_OUTFIELD_PROP)Status 3 Nelem 13572
+BROWSE cvlBrwMol 0 Nelem 57600 Type 21 Status 3
+BROWSE cvlBrwMol 1 Nelem 57600 Type 21 Status 3
+BROWSE cvlBrwMol 2 Nelem 57600 Type 21 Status 3
+BROWSE cvlBrwMol 3 Nelem 57600 Type 21 Status 3
+BROWSE: NEW GRID ID 4194312
+BROWSEFIELD  0 Sum 5117815 Average 88.851
+BROWSEFIELD  1 Sum 4395386 Average 76.3088
+BROWSEFIELD  2 Sum 4172866 Average 72.4456
+BROWSEFIELD  3 Sum 9005734 Average 156.35
+BROWSE-DONE: N-Pixels 57600 Invalid offsets: 0 OutOfRange 0
+
+COMPOSITING FPAR FREQUENCIES
+FPAR   0   512357
+FPAR   1   176234
+FPAR   2   163130
+FPAR   3   133440
+FPAR   4   107163
+FPAR   5    74984
+FPAR   6    43255
+FPAR   7    38667
+FPAR   8   112878
+FPAR   9   354205
+FPAR  10   142170
+FPAR  11    22980
+FPAR  12    24429
+FPAR  13    24301
+FPAR  14    29371
+FPAR  15    33342
+FPAR  16    35584
+FPAR  17    32663
+FPAR  18    45490
+FPAR  19    44326
+FPAR  20    46353
+FPAR  21    32906
+FPAR  22    28738
+FPAR  23    27894
+FPAR  24    18931
+FPAR  25    75999
+FPAR  26    82191
+FPAR  27    76668
+FPAR  28    53375
+FPAR  29    74857
+FPAR  30    55487
+FPAR  31    41567
+FPAR  32    34188
+FPAR  33    43451
+FPAR  34    55987
+FPAR  35    63487
+FPAR  36    53948
+FPAR  37    45209
+FPAR  38    37776
+FPAR  39    42255
+FPAR  40    43458
+FPAR  41    47876
+FPAR  42    41295
+FPAR  43    43347
+FPAR  44    48019
+FPAR  45    47315
+FPAR  46    46652
+FPAR  47    43937
+FPAR  48    35540
+FPAR  49    27653
+FPAR  50    20695
+FPAR  51    23874
+FPAR  52    31012
+FPAR  53    27886
+FPAR  54    22558
+FPAR  55    21525
+FPAR  56    26741
+FPAR  57    22611
+FPAR  58    17485
+FPAR  59    13605
+FPAR  60    13979
+FPAR  61    13983
+FPAR  62    14246
+FPAR  63    12872
+FPAR  64    11693
+FPAR  65    10127
+FPAR  66    10933
+FPAR  67    10506
+FPAR  68     9748
+FPAR  69     7715
+FPAR  70     6550
+FPAR  71     6371
+FPAR  72     6464
+FPAR  73     5488
+FPAR  74     5083
+FPAR  75     6109
+FPAR  76     5615
+FPAR  77     5253
+FPAR  78     3898
+FPAR  79     3346
+FPAR  80     3543
+FPAR  81     3888
+FPAR  82     3314
+FPAR  83     2608
+FPAR  84     2372
+FPAR  85     1943
+FPAR  86     2126
+FPAR  87     1745
+FPAR  88     1730
+FPAR  89     1988
+FPAR  90     1620
+FPAR  91     1486
+FPAR  92     1161
+FPAR  93      921
+FPAR  94      755
+FPAR  95      581
+FPAR  96      562
+FPAR  97      347
+FPAR  98      300
+FPAR  99      297
+FPAR 100    11337
+
+COMPOSITING LAI FREQUENCIES
+LAI    0   877228
+LAI    1   905073
+LAI    2   291230
+LAI    3   465785
+LAI    4   174181
+LAI    5   247304
+LAI    6   214965
+LAI    7   179486
+LAI    8   108792
+LAI    9   106770
+LAI   10    99512
+LAI   11    65144
+LAI   12    65598
+LAI   13    39867
+LAI   14    29631
+LAI   15    23727
+LAI   16    20177
+LAI   17    14041
+LAI   18    10843
+LAI   19     8771
+LAI   20     7082
+LAI   21     5681
+LAI   22     4445
+LAI   23     3728
+LAI   24     3119
+LAI   25     2654
+LAI   26     2263
+LAI   27     1935
+LAI   28     1304
+LAI   29     1363
+LAI   30     1394
+LAI   31     1165
+LAI   32      858
+LAI   33      746
+LAI   34      654
+LAI   35      609
+LAI   36      543
+LAI   37      399
+LAI   38      369
+LAI   39      349
+LAI   40      342
+LAI   41      456
+LAI   42      599
+LAI   43      647
+LAI   44      566
+LAI   45      563
+LAI   46      620
+LAI   47      581
+LAI   48      685
+LAI   49      516
+LAI   50      436
+LAI   51      411
+LAI   52      329
+LAI   53      315
+LAI   54      301
+LAI   55      257
+LAI   56      232
+LAI   57      173
+LAI   58      192
+LAI   59      183
+LAI   60      163
+LAI   61      162
+LAI   62      133
+LAI   63      132
+LAI   64      159
+LAI   65      148
+LAI   66      151
+LAI   67      150
+LAI   68      145
+LAI   69      106
+LAI   70    11285
+
+COMPOSITING DAY INDEX FREQUENCIES
+TILE-INDEX    0 Selection Frequency:   386905
+TILE-INDEX    1 Selection Frequency:   656093
+TILE-INDEX    2 Selection Frequency:   868423
+TILE-INDEX    3 Selection Frequency:   127823
+TILE-INDEX    4 Selection Frequency:   467526
+TILE-INDEX    5 Selection Frequency:   601413
+TILE-INDEX    6 Selection Frequency:   582369
+TILE-INDEX    7 Selection Frequency:   319371
+TILE-INDEX    8 Selection Frequency:        0
+TILE-INDEX    9 Selection Frequency:        0
+TILE-INDEX   10 Selection Frequency:        0
+TILE-INDEX   11 Selection Frequency:        0
+TILE-INDEX   12 Selection Frequency:        0
+TILE-INDEX   13 Selection Frequency:        0
+TILE-INDEX   14 Selection Frequency:        0
+TILE-INDEX   15 Selection Frequency:        0
+
+LOCALGRANULEID [MOD15A2H.A2004017.h18v04.006.2015085080801.hdf]
+ECS QC PERCENT N valid (demominator) : 4009923.000000
+ECS Total Pixels       (denominator) : 5760000
+
+QAPERCENTxx PSA BEFORE CALC
+QAPERCENTINTERPOLATEDDATA: 0
+QAPERCENTMISSINGDATA     : 1750077
+QAPERCENTOUTOFBOUNDSDATA : 1750077
+QAPERCENTCLOUDCOVER      : 1914109
+QAPERCENTNOTPRODUCEDCLOUD: 0
+QAPERCENTNOTPRODUCEDOTHER: 0
+QAPERCENTGOODQUALITY     : 2187356
+QAPERCENTOTHERQUALITY    : 3572644
+QAPERCENTGOODFPAR        : 2187356
+QAPERCENTGOODLAI         : 2187356
+QAPERCENTMAINMETHOD      : 2187356
+QAPERCENTEMPIRICALMODEL  : 1822567
+QAPERCENTNDAYSCOMPOSITED : 8
+QAPERCENTTERRA           : 4009923
+
+
+QAPERCENTxx PSA AFTER CALC
+QAPERCENTINTERPOLATEDDATA: 0
+QAPERCENTMISSINGDATA     : 30
+QAPERCENTOUTOFBOUNDSDATA : 30
+QAPERCENTCLOUDCOVER      : 33
+QAPERCENTNOTPRODUCEDCLOUD: 0
+QAPERCENTNOTPRODUCEDOTHER: 0
+QAPERCENTGOODQUALITY     : 55
+QAPERCENTOTHERQUALITY    : 100
+QAPERCENTGOODFPAR        : 55
+QAPERCENTGOODLAI         : 55
+QAPERCENTMAINMETHOD      : 55
+QAPERCENTEMPIRICALMODEL  : 45
+QAPERCENTNDAYSCOMPOSITED : 8
+
+
+SESSION ENGINEERING SUMMARY FOR PGE34 8-day FPAR,LAI
+UM_VERSION U.MONTANA MODIS PGE34 Vers 5.0.4 Rev 4 Release 10.18.2006 23:59
+Candidate Days: 8
+
+N. invalid loads      : 0
+Pixels failing best day : 1750077
+Pixels set to fill      : 0
+Pixels skipped (disqual): 14007583
+Unclassified Pixels     : 1750077
+MOD15A1 DAILY Input: /MODAPSops7/archive/f5667/running/AM1M_C6_64_L10m/21923811/MOD15A1H.A2004017.h18v04.006.2015085040257.hdf
+MOD15A1 DAILY Input: /MODAPSops7/archive/f5667/running/AM1M_C6_64_L10m/21923811/MOD15A1H.A2004018.h18v04.006.2015085015248.hdf
+MOD15A1 DAILY Input: /MODAPSops7/archive/f5667/running/AM1M_C6_64_L10m/21923811/MOD15A1H.A2004019.h18v04.006.2015085031449.hdf
+MOD15A1 DAILY Input: /MODAPSops7/archive/f5667/running/AM1M_C6_64_L10m/21923811/MOD15A1H.A2004020.h18v04.006.2015085052057.hdf
+MOD15A1 DAILY Input: /MODAPSops7/archive/f5667/running/AM1M_C6_64_L10m/21923811/MOD15A1H.A2004021.h18v04.006.2015085051942.hdf
+MOD15A1 DAILY Input: /MODAPSops7/archive/f5667/running/AM1M_C6_64_L10m/21923811/MOD15A1H.A2004022.h18v04.006.2015085053704.hdf
+MOD15A1 DAILY Input: /MODAPSops7/archive/f5667/running/AM1M_C6_64_L10m/21923811/MOD15A1H.A2004023.h18v04.006.2015085071946.hdf
+MOD15A1 DAILY Input: /MODAPSops7/archive/f5667/running/AM1M_C6_64_L10m/21923811/MOD15A1H.A2004024.h18v04.006.2015085064712.hdf
+
+PGE34 Output       : /MODAPSx/archive/f5667/ops7/running/AM1M_C6_64_L10m/21923811/MOD15A2H.6.2004-017T00:00:00.000000Z.51018004.42574796.215236_1.hdf
+MOD15A2 ANCILLARY    : /MODAPSops7/PGE/AM1M/coeff/PGE34/MOD15A2_ANC_RI4.hdf
+
+QAPERCENTxx PSA AFTER CALC
+QAPERCENTINTERPOLATEDDATA: 0
+QAPERCENTMISSINGDATA     : 30
+QAPERCENTOUTOFBOUNDSDATA : 30
+QAPERCENTCLOUDCOVER      : 33
+QAPERCENTTERRA          : 100
+QAPERCENTGOODQUALITY     : 55
+QAPERCENTOTHERQUALITY    : 100
+QAPERCENTGOODFPAR        : 55
+QAPERCENTGOODLAI         : 55
+QAPERCENTMAINMETHOD      : 55
+QAPERCENTEMPIRICALMODEL  : 45
+QAPERCENTNDAYSCOMPOSITED : 8
+
+
+Started Thu Mar 26 04:07:30 2015  Ended Thu Mar 26 04:08:01 2015
+Elapsed Time          31 Sec (       0.52 Min)</MDI>
+    <MDI key="EXCLUSIONGRINGFLAG.1">N</MDI>
+    <MDI key="GEOANYABNORMAL">False</MDI>
+    <MDI key="GEOESTMAXRMSERROR">50.0</MDI>
+    <MDI key="GLOBALGRIDCOLUMNS500M">86400</MDI>
+    <MDI key="GLOBALGRIDROWS500M">43200</MDI>
+    <MDI key="GRANULEBEGINNINGDATETIME">2015-03-26T04:02:57.000Z</MDI>
+    <MDI key="GRANULEDAYNIGHTFLAG">Day</MDI>
+    <MDI key="GRANULEENDINGDATETIME">2015-03-26T04:02:57.000Z</MDI>
+    <MDI key="GRINGPOINTLATITUDE.1">39.8197706210566, 50.0069689864989, 49.9989721995752, 39.8144150819193</MDI>
+    <MDI key="GRINGPOINTLONGITUDE.1">0.000131401253181314, -0.00867479214979005, 15.5723926647109, 13.0379032886097</MDI>
+    <MDI key="GRINGPOINTSEQUENCENO.1">1, 2, 3, 4</MDI>
+    <MDI key="HDFEOSVersion">HDFEOS_V2.17</MDI>
+    <MDI key="HORIZONTALTILENUMBER">18</MDI>
+    <MDI key="identifier_product_doi">10.5067/MODIS/MOD15A2H.006</MDI>
+    <MDI key="identifier_product_doi_authority">http://dx.doi.org</MDI>
+    <MDI key="INPUTPOINTER">MOD15A1H.A2004024.h18v04.006.2015085064712.hdf, MOD15A1H.A2004023.h18v04.006.2015085071946.hdf, MOD15A1H.A2004022.h18v04.006.2015085053704.hdf, MOD15A1H.A2004021.h18v04.006.2015085051942.hdf, MOD15A1H.A2004020.h18v04.006.2015085052057.hdf, MOD15A1H.A2004019.h18v04.006.2015085031449.hdf, MOD15A1H.A2004018.h18v04.006.2015085015248.hdf, MOD15A1H.A2004017.h18v04.006.2015085040257.hdf, MOD15A2_ANC_RI4.hdf</MDI>
+    <MDI key="LOCALGRANULEID">MOD15A2H.A2004017.h18v04.006.2015085080801.hdf</MDI>
+    <MDI key="LOCALVERSIONID">5.0.4</MDI>
+    <MDI key="long_name">MOD15A2H MODIS/Terra Gridded 500M Leaf Area Index LAI (8-day composite)</MDI>
+    <MDI key="LONGNAME">MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid</MDI>
+    <MDI key="MAXIMUMOBSERVATIONS500M">1</MDI>
+    <MDI key="MOD15A1_ANC_BUILD_CERT">mtAncUtil v. 1.8 Rel. 09.11.2000 17:36 API v. 2.5.6 release 09.14.2000 16:33 Rev.Index 102 (J.Glassy)
+</MDI>
+    <MDI key="MOD15A2_FILLVALUE_DOC">MOD15A2 FILL VALUE LEGEND
+255 = _Fillvalue, assigned when:
+    * the MOD09GA suf. reflectance for channel VIS, NIR was assigned its _Fillvalue, or
+    * land cover pixel itself was assigned _Fillvalus 255 or 254.
+254 = land cover assigned as perennial salt or inland fresh water.
+253 = land cover assigned as barren, sparse vegetation (rock, tundra, desert.)
+252 = land cover assigned as perennial snow, ice.
+251 = land cover assigned as "permanent" wetlands/inundated marshlands.
+250 = land cover assigned as urban/built-up.
+249 = land cover assigned as "unclassified" or not able to determine.
+</MDI>
+    <MDI key="MOD15A2_FparExtra_QC_DOC">FparExtra_QC 6 BITFIELDS IN 8 BITWORD
+LANDSEA PASS-THROUGH START 0 END 1 VALIDS 4
+LANDSEA   00 = 0 LAND       AggrQC(3,5)values{001}
+LANDSEA   01 = 1 SHORE      AggrQC(3,5)values{000,010,100}
+LANDSEA   10 = 2 FRESHWATER AggrQC(3,5)values{011,101}
+LANDSEA   11 = 3 OCEAN      AggrQC(3,5)values{110,111}
+SNOW_ICE (from Aggregate_QC bits) START 2 END 2 VALIDS 2
+SNOW_ICE  0 = No snow/ice detected
+SNOW_ICE  1 = Snow/ice were detected
+AEROSOL START 3 END 3 VALIDS 2
+AEROSOL   0 = No or low atmospheric aerosol levels detected
+AEROSOL   1 = Average or high aerosol levels detected
+CIRRUS (from Aggregate_QC bits {8,9} ) START 4 END 4 VALIDS 2
+CIRRUS    0 = No cirrus detected
+CIRRUS    1 = Cirrus was detected
+INTERNAL_CLOUD_MASK START 5 END 5 VALIDS 2
+INTERNAL_CLOUD_MASK 0 = No clouds
+INTERNAL_CLOUD_MASK 1 = Clouds were detected
+CLOUD_SHADOW START 6 END 6 VALIDS 2
+CLOUD_SHADOW        0 = No cloud shadow detected
+CLOUD_SHADOW        1 = Cloud shadow detected
+SCF_BIOME_MASK START 7 END 7 VALIDS 2
+SCF_BIOME_MASK  0 = Biome outside interval &lt;1,4&gt;
+SCF_BIOME_MASK  1 = Biome in interval &lt;1,4&gt;
+</MDI>
+    <MDI key="MOD15A2_FparLai_QC_DOC">FparLai_QC 5 BITFIELDS IN 8 BITWORD
+MODLAND_QC START 0 END 0 VALIDS 2
+MODLAND_QC   0 = Good Quality (main algorithm with or without saturation)
+MODLAND_QC   1 = Other Quality (back-up algorithm or fill value)
+SENSOR START 1 END 1 VALIDS 2
+SENSOR       0  = Terra
+SENSOR       1  = Aqua
+DEADDETECTOR START 2 END 2 VALIDS 2
+DEADDETECTOR 0 = Detectors apparently fine for up to 50% of channels 1,2
+DEADDETECTOR 1 = Dead detectors caused &gt;50% adjacent detector retrieval
+CLOUDSTATE START 3 END 4 VALIDS 4 (this inherited from Aggregate_QC bits {0,1} cloud state)
+CLOUDSTATE   00 = 0 Significant clouds NOT present (clear)
+CLOUDSTATE   01 = 1 Significant clouds WERE present
+CLOUDSTATE   10 = 2 Mixed cloud present on pixel
+CLOUDSTATE   11 = 3 Cloud state not defined,assumed clear
+SCF_QC START 5 END 7 VALIDS 5
+SCF_QC       000=0 Main (RT) algorithm used, best result possible (no saturation)
+SCF_QC       001=1 Main (RT) algorithm used, saturation occured. Good, very usable.
+SCF_QC       010=2 Main algorithm failed due to bad geometry, empirical algorithm used
+SCF_QC       011=3 Main algorithm faild due to problems other than geometry, empirical algorithm used
+SCF_QC       100=4 Pixel not produced at all, value coudn't be retrieved (possible reasons: bad L1B data, unusable MOD09GA data)
+</MDI>
+    <MDI key="MOD15A2_StdDev_QC_DOC">MOD15A2 STANDARD DEVIATION FILL VALUE LEGEND
+255 = _Fillvalue, assigned when:
+    * the MOD09GA suf. reflectance for channel VIS, NIR was assigned its _Fillvalue, or
+    * land cover pixel itself was assigned _Fillvalus 255 or 254.
+254 = land cover assigned as perennial salt or inland fresh water.
+253 = land cover assigned as barren, sparse vegetation (rock, tundra, desert.)
+252 = land cover assigned as perennial snow, ice.
+251 = land cover assigned as "permanent" wetlands/inundated marshlands.
+250 = land cover assigned as urban/built-up.
+249 = land cover assigned as "unclassified" or not able to determine.
+248 = no standard deviation available, pixel produced using backup method.
+</MDI>
+    <MDI key="NADIRDATARESOLUTION500M">500m</MDI>
+    <MDI key="NDAYS_COMPOSITED">8</MDI>
+    <MDI key="NORTHBOUNDINGCOORDINATE">49.9999999955098</MDI>
+    <MDI key="NUMBEROFGRANULES">1</MDI>
+    <MDI key="PARAMETERNAME.1">MODPR15A2H</MDI>
+    <MDI key="PGEVERSION">6.0.6</MDI>
+    <MDI key="PROCESSINGCENTER">MODAPS</MDI>
+    <MDI key="PROCESSINGENVIRONMENT">Linux minion5667 2.6.18-400.1.1.el5 #1 SMP Thu Dec 18 00:59:53 EST 2014 x86_64 x86_64 x86_64 GNU/Linux</MDI>
+    <MDI key="PRODUCTIONDATETIME">2015-03-26T08:08:01.000Z</MDI>
+    <MDI key="QAPERCENTCLOUDCOVER.1">33</MDI>
+    <MDI key="QAPERCENTEMPIRICALMODEL">45</MDI>
+    <MDI key="QAPERCENTGOODFPAR">55</MDI>
+    <MDI key="QAPERCENTGOODLAI">55</MDI>
+    <MDI key="QAPERCENTGOODQUALITY">55</MDI>
+    <MDI key="QAPERCENTINTERPOLATEDDATA.1">0</MDI>
+    <MDI key="QAPERCENTMAINMETHOD">55</MDI>
+    <MDI key="QAPERCENTMISSINGDATA.1">30</MDI>
+    <MDI key="QAPERCENTOTHERQUALITY">100</MDI>
+    <MDI key="QAPERCENTOUTOFBOUNDSDATA.1">30</MDI>
+    <MDI key="RANGEBEGINNINGDATE">2004-01-17</MDI>
+    <MDI key="RANGEBEGINNINGTIME">00:00:00</MDI>
+    <MDI key="RANGEENDINGDATE">2004-01-24</MDI>
+    <MDI key="RANGEENDINGTIME">23:59:59</MDI>
+    <MDI key="REPROCESSINGACTUAL">reprocessed</MDI>
+    <MDI key="REPROCESSINGPLANNED">further update is anticipated</MDI>
+    <MDI key="scale_factor">0.1</MDI>
+    <MDI key="scale_factor_err">0</MDI>
+    <MDI key="SCIENCEQUALITYFLAG.1">Not Investigated</MDI>
+    <MDI key="SCIENCEQUALITYFLAGEXPLANATION.1">See http://landweb.nascom/nasa.gov/cgi-bin/QA_WWW/qaFlagPage.cgi?sat=terra the product Science Quality status.</MDI>
+    <MDI key="SHORTNAME">MOD15A2H</MDI>
+    <MDI key="SOUTHBOUNDINGCOORDINATE">39.9999999964079</MDI>
+    <MDI key="SPSOPARAMETERS">5367, 2680</MDI>
+    <MDI key="SYSTEMFILENAME">MOD15A1H.A2004024.h18v04.006.2015085064712.hdf, MOD15A1H.A2004023.h18v04.006.2015085071946.hdf, MOD15A1H.A2004022.h18v04.006.2015085053704.hdf, MOD15A1H.A2004021.h18v04.006.2015085051942.hdf, MOD15A1H.A2004020.h18v04.006.2015085052057.hdf, MOD15A1H.A2004019.h18v04.006.2015085031449.hdf, MOD15A1H.A2004018.h18v04.006.2015085015248.hdf, MOD15A1H.A2004017.h18v04.006.2015085040257.hdf</MDI>
+    <MDI key="TileID">51018004</MDI>
+    <MDI key="UM_VERSION">U.MONTANA MODIS PGE34 Vers 5.0.4 Rev 4 Release 10.18.2006 23:59</MDI>
+    <MDI key="units">m^2/m^2</MDI>
+    <MDI key="valid_range">0, 100</MDI>
+    <MDI key="VERSIONID">6</MDI>
+    <MDI key="VERTICALTILENUMBER">04</MDI>
+    <MDI key="WESTBOUNDINGCOORDINATE">0.0</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.4980392156862745</HistMin>
+        <HistMax>254.4980392156863</HistMax>
+        <BucketCount>255</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>28701|28997|9776|15311|5417|7930|7183|5750|3461|3420|3122|2020|2101|1242|931|810|665|458|345|253|204|133|136|116|86|75|72|46|24|39|40|36|27|24|24|22|18|25|5|12|14|18|16|25|12|12|16|15|23|15|13|23|7|15|9|12|7|10|7|5|5|9|10|3|7|8|9|7|3|3|378|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|4717|0|0|516|50923</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">254</MDI>
+      <MDI key="STATISTICS_MEAN">79.407747043226</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">114.73949577488</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
